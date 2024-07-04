@@ -2,6 +2,7 @@ package net.fumblingharold.tutorialmod.block;
 
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.fumblingharold.tutorialmod.TutorialMod;
+import net.fumblingharold.tutorialmod.block.custom.SoundBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
@@ -37,6 +38,9 @@ public class ModBlocks {
   public static final Block END_STONE_RUBY_ORE = registerBlock("end_stone_ruby_ore", new ExperienceDroppingBlock(
       UniformIntProvider.create(2, 5),
       AbstractBlock.Settings.copy(Blocks.END_STONE).strength(4f)));
+
+  public static final Block SOUND_BLOCK = registerBlock("sound_block", new SoundBlock(
+      AbstractBlock.Settings.copy(Blocks.IRON_BLOCK)));
 
 
   public static Block registerBlock(String name, Block block) {
