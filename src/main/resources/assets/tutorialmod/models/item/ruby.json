@@ -1,6 +1,6 @@
 {
   "parent": "items/generated",
   "textures": {
-    "layer0": "tutorialmod:items/ruby"
+    "layer0": "tutorialmod:item/ruby"
   }
 }
