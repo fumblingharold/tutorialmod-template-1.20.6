@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#tutorialmod:needs_netherite_tool",
+    "#tutorialmod:needs_diamond_tool",
+    "#tutorialmod:needs_iron_tool",
+    "#tutorialmod:needs_stone_tool",
+    "tutorialmod:end_stone_ruby_ore"
+  ]
+}

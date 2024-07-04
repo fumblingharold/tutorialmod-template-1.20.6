@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "#tutorialmod:needs_netherite_tool",
+    "#tutorialmod:needs_diamond_tool",
+    "tutorialmod:end_stone_ruby_ore"
+  ]
+}
