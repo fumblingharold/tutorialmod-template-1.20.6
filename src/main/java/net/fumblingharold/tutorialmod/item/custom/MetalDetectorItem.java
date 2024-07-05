@@ -1,5 +1,6 @@
 package net.fumblingharold.tutorialmod.item.custom;
 
+import net.fumblingharold.tutorialmod.util.ModTags;
 import net.minecraft.block.Block;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Blocks;
@@ -49,7 +50,7 @@ public class MetalDetectorItem extends Item {
   }
 
   private static boolean isValuableBlock(BlockState state) {
-    return state.isOf(Blocks.IRON_ORE) || state.isOf(Blocks.DIAMOND_ORE);
+    return state.isIn(ModTags.Blocks.METAL_DETECTOR_DETECTABLE_BLOCKS);
   }
 
   private static void outputValuableCoords(int depth, PlayerEntity player, Block block) {
